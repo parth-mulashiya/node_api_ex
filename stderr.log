@@ -6,4 +6,4 @@ Error: in this we creating some error
     at Module._load (node:internal/modules/cjs/loader:1024:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
     at node:internal/main/run_main_module:28:49
-[33mthis is the ${num}example[39m
+[33mthis is the third example[39m

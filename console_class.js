@@ -8,4 +8,4 @@ myobject.log('This is the first example');
 myobject.log('This is the %s example','second');
 myobject.error(new Error('in this we creating some error'));
 const num = 'third';
-myobject.warn('this is the ${num}example');
+myobject.warn('this is the %s example',num);
