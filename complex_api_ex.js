@@ -75,7 +75,7 @@ app.post('/posts', (req, res) => {
   posts.push(newPost);
   const userIndex = users.findIndex(user => user.id === userId);
   if (userIndex !== -1) {
-    users[userIndex].posts.push(newPost);
+    users[userIndex].posts.push(newPost.id);
     res.status(201).json(newPost);
   } else {
     res.status(404).json({ message: 'User not found' });
